@@ -3,26 +3,7 @@
 {% block content %}
 
     <div class="wrapper">
-
-    <header>
-    <h1>Welcome to AMG Car Rental</h1>
-    <p>Your Trusted Partner in Mobility</p>
-    </header>
-
-<div class="container">
-    <section>
-        <h2>Why Choose AMG Car Rental?</h2>
-        <ul class="services-list">
-            <li><strong>A Fleet for Every Need</strong> - From compact cars to luxury vehicles, we have a car for every occasion.</li>
-            <li><strong>Affordable Rates</strong> - Enjoy competitive pricing for quality cars and services.</li>
-            <li><strong>Flexible Rental Terms</strong> - Rent a car for a day, a week, or even longer. We offer flexible terms to fit your schedule.</li>
-            <li><strong>Convenient Booking</strong> - Book your car easily online or contact our customer service team for assistance.</li>
-            <li><strong>24/7 Customer Support</strong> - Our dedicated team is available around the clock to assist with your needs.</li>
-            <li><strong>Safety and Comfort</strong> - All our vehicles are regularly inspected for safety, comfort, and reliability.</li>
-        </ul>
-    </section>
-            <!--
-            <div class="nav-dots">
+              <div class="nav-dots">
                 <div class="nav-dot" data-slide="1">
                     <div class="buttonText">GT</div>
                 </div>
@@ -36,8 +17,6 @@
                     <div class="buttonText">C63</div>
                 </div>
             </div>
-            --->
-            
             {% for car in cars  %}
             <div class="panel" data-slide="{{ car.id }}">
                 <div class="trans-layer" id="layer-{{ car.id }}"></div>
