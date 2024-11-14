@@ -26,7 +26,7 @@ SECRET_KEY = 'rekz5y6bbnt-04sbs@bq*r7^)*fzeiy))n%l3s8q%4w)s*6lzo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://car-rental-sfhz.onrender.com/','198.211.99.20', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['car-rental-sfhz.onrender.com','198.211.99.20', 'localhost', '127.0.0.1']
 
 
 # Application definition
