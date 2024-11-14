@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'website.apps.WebsiteConfig',
     'django_filters',
     'graph',
+    'graph.apps.GalleryConfig',
 ]
 
 MIDDLEWARE = [
