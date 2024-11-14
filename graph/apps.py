@@ -1,3 +1,3 @@
 from django.apps import AppConfig
 class GalleryConfig(AppConfig):
-    name = 'graph.gallery'
+    name = 'gallery'
