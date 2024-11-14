@@ -3,3 +3,4 @@ gunicorn
 django-filter
 whitenoise
 stripe
+xhtml2pdf
